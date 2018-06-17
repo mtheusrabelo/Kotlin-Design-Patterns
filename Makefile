@@ -22,6 +22,6 @@ compile:
 
 run: check-arguments build-image compile
 	@echo "Running..."
-	@echo "docker @ java -jar build/$(pattern).jar"
+	@echo "docker @ java -jar ${BUILDDIR}/$(pattern).jar"
 	@docker run -v ${PWD}:/${APPDIR} ${IMAGE} java -jar ${BUILDDIR}/$(pattern).jar
 	@exit 0
