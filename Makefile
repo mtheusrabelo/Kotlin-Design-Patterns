@@ -4,7 +4,7 @@ APPDIR=/app
 BUILDDIR=build
 
 build-image:
-ifeq ($(shell docker images | grep ${IMAGE}a | wc -l),0)
+ifeq ($(shell docker images | grep ${IMAGE} | wc -l),0)
 	@echo "Building image..."
 	@docker build . -t ${IMAGE}:latest
 endif
