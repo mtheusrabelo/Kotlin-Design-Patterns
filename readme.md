@@ -3,11 +3,24 @@ Design patterns in Kotlin
 
 ## Usage example
 ```
-make run pattern=SimpleFactory
+make run pattern=PatternName
 ```
 
-## To-Do
-There is a lot of design patterns to add
+## Patterns
+```
+Adapter
+Bridge
+Builder
+ChainOfResponsibility
+Composite
+Decorator
+Facade
+Iterator
+Prototype
+Proxy
+SimpleFactory
+Singleton
+```
 
 ## Requirement
 Docker 
