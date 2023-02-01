@@ -27,6 +27,3 @@ Docker
 
 ## License
 MIT
-
-## Author
-Matheus Freire Rabelo
